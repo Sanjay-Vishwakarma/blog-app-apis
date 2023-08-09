@@ -16,7 +16,6 @@ import lombok.Setter;
 @AllArgsConstructor
 public class UserDto {
 
-	
 	private int id;
 
 	@NotEmpty
