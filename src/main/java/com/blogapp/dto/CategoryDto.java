@@ -15,15 +15,15 @@ import lombok.Setter;
 @AllArgsConstructor
 public class CategoryDto {
 
-
+// dto tell what will bew send to the server
 
 	private Integer categoryId;
 	
 	@NotBlank
-	@Size(min=4)
+	@Size(min=4 , message = "Minimum size is title 4")
 	private String categoryTitle;
-	
-	@Size(max=10)
+
+	@Size(min=10 , message = "Minimum size is description 10")
 	private String categoryDescription;
 	
 	

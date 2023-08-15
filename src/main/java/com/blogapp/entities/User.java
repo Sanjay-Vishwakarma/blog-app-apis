@@ -25,22 +25,21 @@ import lombok.Setter;
 @Table(name = "user_table")
 public class User {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
 
-	@Column(name = "user_name", nullable = false, length = 200)
-	private String name;
-	
-	private String email;
-	
-	private String password;
-	
-	private String about;
-	
-//	@OneToMany(mappedBy="user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-//	private List<Post> posts=new ArrayList();
-//
-//
-	
+    @Column(name = "user_name", nullable = false, length = 200)
+    private String name;
+
+    private String email;
+
+    private String password;
+
+    private String about;
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Post> posts = new ArrayList<>();
+
+
 }

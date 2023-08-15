@@ -36,9 +36,12 @@ public class Category {
 	
 	@Column(name="description")
 	private String categoryDescription;
-	
-	//@OneToMany(mappedBy="category", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-	//private List<Post> posts=new ArrayList();
+
+
+	// category can have multiple posts
+	// cascade use parent -child relationship
+	@OneToMany(mappedBy="category", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	private List<Post> posts=new ArrayList<>();
 
 	
 	
