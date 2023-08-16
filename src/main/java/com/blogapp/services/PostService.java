@@ -12,24 +12,26 @@ public interface PostService {
     PostDto createPost(PostDto postDto, Integer userId, Integer categoryId);
 
     // update
-    Post updatePost(PostDto postDto, Integer postId);
+    PostDto updatePost(PostDto postDto, Integer postId);
 
     // delete
     void deletePost(Integer postId);
 
     // get all post
-    List<Post> getAllPost();
+    List<PostDto> getAllPost();
 
     // get single post
-    List getPostById(Integer postId);
+    PostDto getPostById(Integer postId);
 
 
     // get all post by category
-    List<Post> getPostByCategory(Integer categoryId);
+    List<PostDto> getPostByCategory(Integer categoryId);
 
 
     // get all post by user
-    List<Post> getPostByUser(Integer userId);
+    List<PostDto> getPostByUser(Integer userId);
 
+    // search posts
+List<PostDto> searchPosts(String keyword);
 
 }

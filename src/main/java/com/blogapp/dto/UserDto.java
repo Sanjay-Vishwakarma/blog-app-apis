@@ -24,11 +24,11 @@ public class UserDto {
 	
 	@Email(message="Your email is not correct")
 	private String email;
-	
-	
+
 	@NotEmpty
 	@Pattern(regexp = "^[a-zA-Z]\\w{3,14}$" , message= "password should be 1 lower and  upper case")
 	private String password;
-	
+
+	@NotEmpty
 	private String about;
 }
