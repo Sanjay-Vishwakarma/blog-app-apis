@@ -7,7 +7,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.blogapp.dto.CategoryDto;
+import com.blogapp.payloads.CategoryDto;
 import com.blogapp.entities.Category;
 import com.blogapp.exception.ResourceNotFoundException;
 import com.blogapp.repositories.CategoryRepo;

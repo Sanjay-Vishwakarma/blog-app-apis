@@ -1,9 +1,5 @@
-package com.blogapp.dto;
+package com.blogapp.payloads;
 
-import com.blogapp.entities.Category;
-import com.blogapp.entities.User;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

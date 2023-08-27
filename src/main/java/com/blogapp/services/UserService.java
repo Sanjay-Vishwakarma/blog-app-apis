@@ -3,7 +3,7 @@ package com.blogapp.services;
 import java.util.List;
 
 
-import com.blogapp.dto.UserDto;
+import com.blogapp.payloads.UserDto;
 
 public interface UserService  {
 

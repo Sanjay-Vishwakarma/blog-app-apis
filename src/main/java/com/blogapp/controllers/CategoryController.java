@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.blogapp.dto.ApiResponse;
-import com.blogapp.dto.CategoryDto;
+import com.blogapp.payloads.ApiResponse;
+import com.blogapp.payloads.CategoryDto;
 import com.blogapp.services.CategoryService;
 
 import jakarta.validation.Valid;

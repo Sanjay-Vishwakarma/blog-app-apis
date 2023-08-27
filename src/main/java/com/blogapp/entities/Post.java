@@ -27,6 +27,7 @@ public class Post {
 
     private String imageName;
 
+    @Temporal(TemporalType.DATE)
     private Date addedDate;
 
 
