@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db802b34-1800-45d5-901a-58ffd6d49117" name="Default Changelist" comment="added post paginataion and">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/blogapp/serviceimpl/FileServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/blogapp/services/FileService.java" afterDir="false" />
+    <list default="true" id="db802b34-1800-45d5-901a-58ffd6d49117" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blogapp/controllers/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blogapp/entities/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blogapp/payloads/CommentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blogapp/repositories/CommentRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blogapp/serviceimpl/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blogapp/services/CommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blogapp/controllers/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blogapp/controllers/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blogapp/serviceimpl/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blogapp/serviceimpl/PostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/blogapp/entities/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blogapp/entities/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/blogapp/payloads/PostDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blogapp/payloads/PostDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -61,7 +67,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;129f76887f9cd36bbcaef58bda34a72b&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -112,7 +118,10 @@
       <workItem from="1692206333634" duration="6591000" />
       <workItem from="1693025004767" duration="414000" />
       <workItem from="1693025439460" duration="509000" />
-      <workItem from="1693114174552" duration="11607000" />
+      <workItem from="1693114174552" duration="12309000" />
+      <workItem from="1693240410479" duration="131000" />
+      <workItem from="1693240564765" duration="1380000" />
+      <workItem from="1693243599722" duration="7045000" />
     </task>
     <task id="LOCAL-00001" summary="remove spaces">
       <created>1689403965843</created>
@@ -153,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693123530254</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="file upload">
+      <option name="closed" value="true" />
+      <created>1693138578253</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693138578253</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +192,7 @@
     <MESSAGE value="added post" />
     <MESSAGE value="added post feature" />
     <MESSAGE value="added post paginataion and searching feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="added post paginataion and searching feature" />
+    <MESSAGE value="file upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="file upload" />
   </component>
 </project>

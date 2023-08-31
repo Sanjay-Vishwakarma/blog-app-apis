@@ -1,11 +1,14 @@
 package com.blogapp.entities;
 
+import com.blogapp.payloads.CommentDto;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 @Data
 @NoArgsConstructor
@@ -39,5 +42,7 @@ public class Post {
     @ManyToOne
     private User user;
 
+    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL)
+    private Set<Comment> comments =  new HashSet<>();
 
 }
